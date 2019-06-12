@@ -1,0 +1,163 @@
+/*
+font-family: 'Dancing Script',
+cursive;
+font-family: 'Overpass',
+sans-serif;
+*/
+
+img {
+    position: absolute;
+    width: 90%;
+    height: 110%;
+    margin-left: 60px;
+}
+
+div:nth-of-type(2) {
+    position: absolute;
+}
+
+a > svg {
+    z-index: -1;
+    width: 30%;
+    height: 10%;
+    margin-top: 80px;
+    margin-left: 800px;
+    animation: fadeIn 6s forwards;
+}
+
+p {
+    z-index: 1;
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 850px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 4em;
+    width: 25%;
+    color: #97790B;
+    animation: fadeIn 6s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/*Pagina 2*/
+
+.pagina2 {
+    background-image: url("Images/achtergrond.png");
+}
+
+.pagina2 {
+    position: absolute;
+    margin-left: 260px;
+    width: 80%;
+    height: 100%;
+}
+
+div h1 {
+    font-family: 'Overpass', bold;
+    font-size: 4em;
+    color: #97790B;
+    margin-left: -230px;
+}
+
+.text {
+    width: 300px;
+    font-family: 'Overpass', bold;
+    margin-top: -20px;
+    font-size: 1em;
+    color: #97790B;
+    margin-left: -230px;
+    animation: Invliegen 2s forwards;
+    transition: transform .8 ease;
+}
+
+@keyframes invliegen {
+    from {
+        transform: translateX(-1000px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}
+
+
+/*Pagina 3*/
+
+.pagina3 {}
+
+.icoon {
+    position: absolute;
+    margin-left: 320px;
+    margin-top: 240px;
+    animation: fadeIn 6s forwards;
+}
+
+.icoon1 svg {
+    height: 50px;
+    position: absolute;
+    margin-left: 470px;
+    margin-top: 480px;
+    animation: fadeIn 8s forwards;
+}
+
+.icoon2 svg {
+    height: 50px;
+    position: absolute;
+    margin-left: 520px;
+    margin-top: 506px;
+    animation: fadeIn 8.2s forwards;
+}
+
+.icoon3 svg {
+    height: 50px;
+    position: absolute;
+    margin-left: 490px;
+    margin-top: 520px;
+    animation: fadeIn 8.3s forwards;
+}
+
+.icoon4 svg {
+    position: absolute;
+    margin-left: 910px;
+    margin-top: 20px;
+    animation: fadeIn 9s forwards;
+}
+
+.icoon5 svg {
+    height: 45px;
+    position: absolute;
+    margin-left: 290px;
+    margin-top: 290px;
+    animation: fadeIn 9s forwards;
+}
+
+.icoon6 svg {
+    height: 60px;
+    position: absolute;
+    margin-left: 715px;
+    margin-top: 370px;
+    animation: fadeIn 9s forwards;
+}
+
+.icoon7 svg {
+    height: 30px;
+    position: absolute;
+    margin-left: 730px;
+    margin-top: 410px;
+    animation: fadeIn 9s forwards;
+}
+
+.icoon8 svg {
+    height: 30px;
+    position: absolute;
+    margin-left: 345px;
+    margin-top: 300px;
+    animation: fadeIn 9s forwards;
+}
