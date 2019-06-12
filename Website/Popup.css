@@ -57,12 +57,11 @@ div:nth-of-type(2) {
 /*Dagboek pagina overgroot opa*/
 
 .dagboek h1 {
-    font-family: 'Overpass', bold;
     font-size: 4em;
     color: #97790B;
     margin-left: -230px;
     margin-left: 30px;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Dancing Script';
 }
 
 .dagboek p {
@@ -131,9 +130,27 @@ div:nth-of-type(2) {
 }
 
 .dagboek2 img {
-    position: absolute;
     width: 330px;
     height: 500px;
     margin-left: 530px;
     margin-top: -160px;
+}
+
+h2 {
+    z-index: 4;
+    position: absolute;
+    font-size: 6.7em;
+    color: #97790B;
+    margin-top: 440px;
+    margin-left: 930px;
+    font-family: 'Dancing Script', cursive;
+}
+
+#openModal h2 {
+    position: absolute;
+    font-size: 6em;
+    color: #1E548E;
+    margin-top: 240px;
+    margin-left: 770px;
+    font-family: 'Overpass', bold;
 }
