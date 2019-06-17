@@ -16,6 +16,21 @@ div:nth-of-type(2) {
     position: absolute;
 }
 
+.pagina2 img {
+    position: absolute;
+    width: 90%;
+    height: 110%;
+    margin-left: 60px;
+}
+
+#pasfoto img {
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    margin-left: 60px;
+    border-radius: 100px;
+}
+
 a > svg {
     z-index: -1;
     width: 30%;
@@ -36,6 +51,12 @@ p {
     color: #97790B;
     animation: fadeIn 6s forwards;
 }
+
+
+/*
+.negentiennegetig {
+    width: 35%;
+}*/
 
 @keyframes fadeIn {
     from {
