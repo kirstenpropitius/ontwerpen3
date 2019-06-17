@@ -67,7 +67,7 @@ div:nth-of-type(2) {
 .dagboek p {
     position: absolute;
     font-family: 'Dancing Script';
-    width: 45%;
+    width: 35%;
     font-size: 1.2em;
     color: black;
     margin-left: 30px;
@@ -78,6 +78,11 @@ div:nth-of-type(2) {
 #geboorte {
     width: 35%;
     font-size: 1.4em;
+}
+
+#geboorte2 {
+    width: 40%;
+    font-size: 1.2em;
 }
 
 p:nth-of-type(2) {
@@ -204,7 +209,7 @@ body.dagboek {
     color: #1E548E;
     font-family: 'Overpass', bold;
     margin-left: 30px;
-    font-size: 1.3em;
+    font-size: 1.2em;
     margin-top: -50px;
     width: 400px;
 }
@@ -244,6 +249,24 @@ h2 {
     margin-top: 240px;
     margin-left: 770px;
     font-family: 'Overpass', bold;
+}
+
+audio {
+    margin-top: 290px;
+    margin-left: 32px;
+    transition: all 0.5s linear;
+    box-shadow: 2px 3px 5px 0px #1E548E;
+    border-radius: 30px;
+}
+
+audio:hover {
+    box-shadow: 10px 10px 15px rgba(16, 55, 98, 0.4);
+    transform: scale(1.05);
+}
+
+audio:active {
+    box-shadow: 10px 10px 15px rgba(16, 55, 98, 0.4);
+    transform: scale(1.05);
 }
 
 

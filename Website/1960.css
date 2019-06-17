@@ -25,6 +25,7 @@ div:nth-of-type(2) {
 }
 
 #negentien {
+    width: 40%;
     font-family: 'Overpass', bold;
     font-size: 0.9em;
 }
