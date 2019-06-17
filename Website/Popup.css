@@ -96,10 +96,17 @@ p:nth-of-type(2) {
 }
 
 body.dagboek {
-    background-image: url(Images/Achtergrond%20dagboek.png)
+    background-image: url(Images/Achtegrondnieuw.png)
 }
 
+
+/*
 #fotovoor:hover {
+    animation: Schudden 0.3s linear forwards;
+}
+*/
+
+.opzij {
     animation: opzijvegen 0.8s linear forwards;
 }
 
