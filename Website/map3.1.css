@@ -1,0 +1,95 @@
+/*Pagina 3*/
+
+.icoon {
+    position: absolute;
+    margin-left: 320px;
+    margin-top: 230px;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(.4);
+    }
+    50% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0.4);
+    }
+}
+
+.icoon1 svg {
+    fill: #352d26;
+    height: 50px;
+    position: absolute;
+    margin-left: 470px;
+    margin-top: 480px;
+    animation: pulse 2s infinite;
+}
+
+.icoon2 svg {
+    height: 50px;
+    position: absolute;
+    margin-left: 520px;
+    margin-top: 506px;
+    animation: pulse 2s infinite;
+}
+
+.icoon3 svg {
+    height: 50px;
+    position: absolute;
+    margin-left: 490px;
+    margin-top: 520px;
+    animation: pulse 2s infinite;
+}
+
+.icoon4 svg {
+    opacity: 0;
+    position: absolute;
+    margin-left: 910px;
+    margin-top: 20px;
+    animation: fadeIn 2s 2s forwards;
+}
+
+.icoon5 svg {
+    opacity: 0;
+    height: 45px;
+    position: absolute;
+    margin-left: 290px;
+    margin-top: 290px;
+    animation: fadeIn 2s 3s forwards;
+}
+
+.icoon6 svg {
+    opacity: 0;
+    height: 60px;
+    position: absolute;
+    margin-left: 715px;
+    margin-top: 370px;
+    animation: fadeIn 2s 4s forwards;
+}
+
+.icoon7 svg {
+    opacity: 0;
+    height: 30px;
+    position: absolute;
+    margin-left: 730px;
+    margin-top: 410px;
+    animation: fadeIn 2s 5s forwards;
+}
+
+.icoon8 svg {
+    height: 30px;
+    position: absolute;
+    margin-left: 345px;
+    margin-top: 300px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

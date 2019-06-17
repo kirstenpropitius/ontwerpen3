@@ -53,6 +53,19 @@ p {
     background-image: url("Images/achtergrond.png");
 }
 
+.pagina2 img {
+    animation: opkomen 2s forwards;
+}
+
+@keyframes opkomen {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
 .pagina2 {
     position: absolute;
     margin-left: 260px;
@@ -78,7 +91,7 @@ div h1 {
     transition: transform .8 ease;
 }
 
-@keyframes invliegen {
+@keyframes Invliegen {
     from {
         transform: translateX(-1000px);
     }
@@ -88,76 +101,44 @@ div h1 {
 }
 
 
-/*Pagina 3*/
+/*
+    cursor: pointer;
+box-shadow: 0 0 0 rgba(204, 169, 44, 4);
+*/
 
-.pagina3 {}
 
-.icoon {
-    position: absolute;
-    margin-left: 320px;
-    margin-top: 240px;
-    animation: fadeIn 6s forwards;
+/*
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(204, 169, 44, 4);
+        box-shadow: 0 0 0 0 rgba(204, 169, 44, 4);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+        box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+        box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+    }
 }
+*/
 
-.icoon1 svg {
-    height: 50px;
-    position: absolute;
-    margin-left: 470px;
-    margin-top: 480px;
-    animation: fadeIn 8s forwards;
-}
 
-.icoon2 svg {
-    height: 50px;
-    position: absolute;
-    margin-left: 520px;
-    margin-top: 506px;
-    animation: fadeIn 8.2s forwards;
-}
-
-.icoon3 svg {
-    height: 50px;
-    position: absolute;
-    margin-left: 490px;
-    margin-top: 520px;
-    animation: fadeIn 8.3s forwards;
-}
-
-.icoon4 svg {
-    position: absolute;
-    margin-left: 910px;
-    margin-top: 20px;
-    animation: fadeIn 9s forwards;
-}
-
-.icoon5 svg {
-    height: 45px;
-    position: absolute;
-    margin-left: 290px;
-    margin-top: 290px;
-    animation: fadeIn 9s forwards;
-}
-
-.icoon6 svg {
-    height: 60px;
-    position: absolute;
-    margin-left: 715px;
-    margin-top: 370px;
-    animation: fadeIn 9s forwards;
-}
-
-.icoon7 svg {
-    height: 30px;
-    position: absolute;
-    margin-left: 730px;
-    margin-top: 410px;
-    animation: fadeIn 9s forwards;
-}
-
-.icoon8 svg {
-    height: 30px;
-    position: absolute;
-    margin-left: 345px;
-    margin-top: 300px;
-    animation: fadeIn 9s forwards;
-}
+/*
+ animation: jump 1.2s infinite 2s;
+ @keyframes jump {
+     0% {
+         transform: translate3d(0, 0, 0) scale3d(1, 0.4, 2);
+     }
+     40% {
+         transform: translate3d(0, 50%, 0) scale3d(.7, 1.5, 1);
+     }
+     60% {
+         transform: translate3d(0, 100%, 0) scale3d(1.5, .7, 1);
+     }
+     100% {
+         transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+     }
+ }
+*/

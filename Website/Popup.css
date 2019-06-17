@@ -66,13 +66,24 @@ div:nth-of-type(2) {
 
 .dagboek p {
     position: absolute;
-    font-family: 'Dancing Script', cursive;
-    width: 25%;
-    font-size: 1.5em;
+    font-family: 'Dancing Script';
+    width: 45%;
+    font-size: 1.2em;
     color: black;
     margin-left: 30px;
     margin-top: -30px;
     animation: fadeIn 6s forwards;
+}
+
+#geboorte {
+    width: 35%;
+    font-size: 1.4em;
+}
+
+p:nth-of-type(2) {
+    font-size: 1.4em;
+    margin-top: 120px;
+    font-weight: bold;
 }
 
 @keyframes fadeIn {
@@ -84,8 +95,21 @@ div:nth-of-type(2) {
     }
 }
 
-.dagboek {
+body.dagboek {
     background-image: url(Images/Achtergrond%20dagboek.png)
+}
+
+#fotovoor:hover {
+    animation: opzijvegen 0.8s linear forwards;
+}
+
+@keyframes opzijvegen {
+    from {
+        transform: translateX(0px);
+    }
+    to {
+        transform: translateX(-130px);
+    }
 }
 
 .dagboek img {
@@ -104,11 +128,60 @@ div:nth-of-type(2) {
     margin-top: -160px;
 }
 
+.dagboek a img:hover {
+    animation: Omhoog 0.3s linear forwards;
+}
+
+@keyframes Omhoog {
+    0% {
+        transform: translate(0, -5px);
+    }
+    50% {
+        transform: translate(0, -10px);
+    }
+    100% {
+        transform: translate(0, -15px);
+    }
+}
+
 .dagboek1 a img {
     margin-top: 300px;
     margin-left: 40px;
     width: 80px;
     height: 120px;
+    /*
+    animation: invliegen 2s forwards;
+    transition: transform .8 ease;
+*/
+}
+
+
+/*
+@keyframes invliegen {
+    from {
+        transform: translateX(-100s0px);
+
+}
+    to {
+        transform: translateX(0px);
+    }
+}
+*/
+
+.dagboek1 a img:hover {
+    animation: Schudden 0.8s linear infinite;
+}
+
+@keyframes Schudden {
+    0% {
+        transform: translate(0, 5px);
+    }
+    50% {
+        transform: translate(0, -6px);
+    }
+    100% {
+        transform: translate(0, 3px);
+    }
 }
 
 
@@ -124,9 +197,9 @@ div:nth-of-type(2) {
     color: #1E548E;
     font-family: 'Overpass', bold;
     margin-left: 30px;
-    font-size: 1.5em;
+    font-size: 1.3em;
     margin-top: -50px;
-    width: 360px;
+    width: 400px;
 }
 
 .dagboek2 img {
@@ -144,6 +217,17 @@ h2 {
     margin-top: 440px;
     margin-left: 930px;
     font-family: 'Dancing Script', cursive;
+    animation: invliegen 2s forwards;
+    transition: transform .8 ease;
+}
+
+@keyframes invliegen {
+    from {
+        transform: translateX(1000px);
+    }
+    to {
+        transform: translateX(0px);
+    }
 }
 
 #openModal h2 {
@@ -154,3 +238,6 @@ h2 {
     margin-left: 770px;
     font-family: 'Overpass', bold;
 }
+
+
+/*blendmode*/
