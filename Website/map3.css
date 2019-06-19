@@ -1,5 +1,9 @@
 /*Pagina 3*/
 
+.kaart {
+    background-color: #B2B2B2;
+}
+
 .icoon {
     position: absolute;
     margin-left: 320px;

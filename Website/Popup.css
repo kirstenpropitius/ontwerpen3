@@ -9,7 +9,7 @@
     background: rgba(207, 192, 163, 0.8);
     z-index: 99999;
     opacity: 0;
-    transition: opacity 1s ease-in;
+    transition: opacity 0.8s ease-in;
     pointer-events: none;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .close {
-    background: #1E548E;
+    background: #E7C80B;
     color: #FFFFFF;
     line-height: 25px;
     position: absolute;
@@ -42,7 +42,7 @@
     font-weight: bold;
     border-radius: 15px;
     box-shadow: 1px 1px 3px #000;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Overpass', bold;
 }
 
 .close:hover {
@@ -51,6 +51,10 @@
 
 div:nth-of-type(2) {
     position: absolute;
+}
+
+#bold {
+    width: 30%;
 }
 
 
@@ -126,8 +130,8 @@ body.dagboek {
 
 .dagboek img {
     position: absolute;
-    width: 380px;
-    height: 580px;
+    width: 400px;
+    height: 550px;
     margin-left: 600px;
     margin-top: -120px;
 }
@@ -157,28 +161,33 @@ body.dagboek {
 }
 
 .dagboek1 a img {
-    margin-top: 300px;
-    margin-left: 40px;
-    width: 80px;
-    height: 120px;
+    margin-top: 350px;
+    margin-left: 25px;
+    width: 120px;
+    height: 80px;
     /*
     animation: invliegen 2s forwards;
     transition: transform .8 ease;
 */
 }
 
+#geboorte img {
+    margin-top: 250px;
+    margin-left: 25px;
+    width: 270px;
+    height: 180px;
+}
+
 
 /*
 @keyframes invliegen {
     from {
-        transform: translateX(-100s0px);
-
-}
+        transform: translateX(-1000px);
+    }
     to {
         transform: translateX(0px);
     }
-}
-*/
+}*/
 
 .dagboek1 a img:hover {
     animation: Schudden 0.8s linear infinite;
@@ -201,13 +210,13 @@ body.dagboek {
 
 .dagboek2 h1 {
     margin-left: 30px;
-    color: #1E548E;
+    color: #E7C80B;
     font-family: 'Overpass', bold;
 }
 
 .dagboek2 p {
-    color: #1E548E;
-    font-family: 'Overpass', bold;
+    color: #070F1A;
+    font-family: 'Swanky and Moo Moo';
     margin-left: 30px;
     font-size: 1.2em;
     margin-top: -50px;
@@ -245,7 +254,7 @@ h2 {
 #openModal h2 {
     position: absolute;
     font-size: 6em;
-    color: #1E548E;
+    color: #E7C80B;
     margin-top: 240px;
     margin-left: 770px;
     font-family: 'Overpass', bold;
@@ -267,6 +276,96 @@ audio:hover {
 audio:active {
     box-shadow: 10px 10px 15px rgba(16, 55, 98, 0.4);
     transform: scale(1.05);
+}
+
+
+/*decoratie*/
+
+#decoratie img {
+    margin-top: -320px;
+    margin-left: 1050px;
+    width: 300px;
+    height: 400px;
+    transform: rotate(20deg);
+    opacity: 0.8;
+}
+
+#bonnen img {
+    margin-top: 390px;
+    margin-left: 1090px;
+    opacity: 0.7;
+    width: 200px;
+    height: 120px;
+    transform: rotate(10deg);
+}
+
+#bonnen1 img {
+    margin-top: -90px;
+    margin-left: 1180px;
+    opacity: 0.9;
+    width: 200px;
+    height: 190px;
+    transform: rotate(-10deg);
+}
+
+#bonnen2 img {
+    z-index: -3;
+    margin-top: 170px;
+    margin-left: 1030px;
+    opacity: 0.9;
+    width: 100px;
+    height: 70px;
+    transform: rotate(5deg);
+}
+
+#tape img {
+    transform: rotate(30deg);
+    margin-top: 170px;
+    margin-left: 1060px;
+    width: 100px;
+    height: 30px;
+}
+
+#tape1 img {
+    transform: rotate(-50deg);
+    margin-top: -70px;
+    margin-left: 1130px;
+    width: 130px;
+    height: 30px;
+}
+
+#brief img {
+    z-index: -3;
+    transform: rotate(8deg);
+    margin-top: -70px;
+    margin-left: 810px;
+    width: 380px;
+    height: 490px;
+}
+
+#akte img {
+    opacity: 0.4;
+    transform: rotate(-8deg);
+    margin-top: -70px;
+    margin-left: 1210px;
+    width: 380px;
+    height: 490px;
+}
+
+#urn img {
+    transform: rotate(-0.8deg);
+    margin-top: 330px;
+    margin-left: 430px;
+    width: 290px;
+    height: 90px;
+}
+
+#woning img {
+    transform: rotate(8deg);
+    margin-top: -220px;
+    margin-left: 1130px;
+    width: 290px;
+    height: 190px;
 }
 
 

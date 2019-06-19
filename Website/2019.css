@@ -9,7 +9,7 @@ div:nth-of-type(2) {
     font-size: 4em;
     margin-left: -230px;
     margin-left: 30px;
-    color: #1E548E;
+    color: #E7C80B;
     font-family: 'Overpass', bold;
 }
 
@@ -18,8 +18,8 @@ div:nth-of-type(2) {
     width: 42%;
     font-size: 1.2em;
     margin-left: 30px;
-    color: #1E548E;
-    font-family: 'Overpass', bold;
+    color: #070F1A;
+    font-family: 'Swanky and Moo Moo', cursive;
     margin-top: -50px;
     animation: fadeIn 6s forwards;
 }
@@ -37,7 +37,7 @@ h2 {
     z-index: 4;
     position: absolute;
     font-size: 6.7em;
-    color: #1E548E;
+    color: #E7C80B;
     margin-top: 440px;
     margin-left: 930px;
     font-family: 'Overpass', bold;
@@ -83,10 +83,10 @@ h2 {
 }
 
 .dagboek1 a img {
-    margin-top: 300px;
-    margin-left: 40px;
-    width: 80px;
-    height: 120px;
+    margin-top: 350px;
+    margin-left: 25px;
+    width: 120px;
+    height: 80px;
 }
 
 .dagboek1 a img:hover {
@@ -110,4 +110,11 @@ h2 {
     height: 600px;
     margin-left: 685px;
     margin-top: -160px;
+}
+
+#graven img {
+    margin-top: -130px;
+    margin-left: 1050px;
+    width: 160px;
+    height: 190px;
 }
