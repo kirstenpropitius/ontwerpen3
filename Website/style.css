@@ -136,7 +136,8 @@ p {
 
 div h1 {
     font-family: 'Overpass', bold;
-    font-size: 4em;
+    font-size: 3em;
+    width: 70%;
     color: #97790B;
     margin-left: -230px;
 }
